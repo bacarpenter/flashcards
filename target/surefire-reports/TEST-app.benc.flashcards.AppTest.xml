@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="app.benc.flashcards.AppTest" time="0.066" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="app.benc.flashcards.AppTest" time="0.096" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/15.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/bencarpenter/Code/java dev/flash-card-corrector/flashcards/target/surefire/surefirebooter7125095281491971845.jar /Users/bencarpenter/Code/java dev/flash-card-corrector/flashcards/target/surefire 2021-04-14T20-57-10_390-jvmRun1 surefire847994723781778135tmp surefire_013898333907875565934tmp"/>
+    <property name="sun.java.command" value="/Users/bencarpenter/Code/java dev/flash-card-corrector/flashcards/target/surefire/surefirebooter5618595276507062828.jar /Users/bencarpenter/Code/java dev/flash-card-corrector/flashcards/target/surefire 2021-04-14T23-00-42_940-jvmRun1 surefire13351183135785155894tmp surefire_016072815976873704061tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/bencarpenter/Code/java dev/flash-card-corrector/flashcards/target/test-classes:/Users/bencarpenter/Code/java dev/flash-card-corrector/flashcards/target/classes:/Users/bencarpenter/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/bencarpenter/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/bencarpenter/Code/java dev/flash-card-corrector/flashcards/target/surefire/surefirebooter7125095281491971845.jar"/>
+    <property name="surefire.real.class.path" value="/Users/bencarpenter/Code/java dev/flash-card-corrector/flashcards/target/surefire/surefirebooter5618595276507062828.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="15.0.2+7"/>
@@ -53,11 +53,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="cardCleaner1" classname="app.benc.flashcards.AppTest" time="0.005"/>
+  <testcase name="deck1" classname="app.benc.flashcards.AppTest" time="0.005"/>
+  <testcase name="deck2" classname="app.benc.flashcards.AppTest" time="0.001"/>
+  <testcase name="cardCleaner1" classname="app.benc.flashcards.AppTest" time="0"/>
   <testcase name="cardCleaner2" classname="app.benc.flashcards.AppTest" time="0"/>
-  <testcase name="cardCleaner3" classname="app.benc.flashcards.AppTest" time="0"/>
-  <testcase name="cardCleaner4" classname="app.benc.flashcards.AppTest" time="0"/>
+  <testcase name="cardCleaner3" classname="app.benc.flashcards.AppTest" time="0.001"/>
+  <testcase name="cardCleaner4" classname="app.benc.flashcards.AppTest" time="0.001"/>
   <testcase name="flagged1" classname="app.benc.flashcards.AppTest" time="0"/>
-  <testcase name="flagged2" classname="app.benc.flashcards.AppTest" time="0.001"/>
-  <testcase name="flagged3" classname="app.benc.flashcards.AppTest" time="0"/>
+  <testcase name="flagged2" classname="app.benc.flashcards.AppTest" time="0"/>
+  <testcase name="flagged3" classname="app.benc.flashcards.AppTest" time="0.001"/>
 </testsuite>
