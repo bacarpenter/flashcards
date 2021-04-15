@@ -57,4 +57,30 @@ public class Deck {
         cards.remove(cards.size() - 1);
     }
 
+    /**
+     * Clean all cards in cards
+     */
+    public void cleanAll() {
+        for (Flashcard card : cards) {
+            card.cleanCard();
+        }
+    }
+
+    /**
+     * Get index of all flaged cards in the deck
+     * 
+     * @return
+     */
+    public ArrayList<Integer> getFlagged() {
+        ArrayList<Integer> flaggedCards = new ArrayList<>();
+
+        for (int i = 0; i < cards.size(); i++) {
+            if (cards.get(i).isFlagged()) {
+                flaggedCards.add(i);
+            }
+        }
+
+        return flaggedCards;
+    }
+
 }
