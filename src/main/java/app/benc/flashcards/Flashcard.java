@@ -11,10 +11,18 @@ public class Flashcard {
     private boolean flag;
 
     // Constructors
+    public Flashcard() {
+    }
+
     public Flashcard(String newTerm, String newDefinition) {
         term = newTerm;
         definition = newDefinition;
-        flag = false;
+    }
+
+    public Flashcard(String newTerm, String newDefinition, boolean flagged) {
+        term = newTerm;
+        definition = newDefinition;
+        flag = flagged;
     }
 
     // Accessor Methods
