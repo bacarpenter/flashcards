@@ -13,4 +13,48 @@ public class Deck {
         this.cards = cards;
     }
 
+    /**
+     * Add card to top of deck
+     * 
+     * @param card
+     */
+    public void addCard(Flashcard card) {
+        cards.add(card);
+    }
+
+    /**
+     * Get card from index in deck
+     * 
+     * @param i
+     * @return
+     */
+    public Flashcard get(int i) {
+        return cards.get(i);
+    }
+
+    /**
+     * Get ArrayList of cards
+     * 
+     * @return
+     */
+    public ArrayList<Flashcard> getAll() {
+        return cards;
+    }
+
+    /**
+     * Delete card at index
+     * 
+     * @param i
+     */
+    public void deleteCard(int i) {
+        cards.remove(i);
+    }
+
+    /**
+     * Delete card at top of deck
+     */
+    public void deleteCard() {
+        cards.remove(cards.size() - 1);
+    }
+
 }
