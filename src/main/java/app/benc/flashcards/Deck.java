@@ -51,6 +51,13 @@ public class Deck {
     }
 
     /**
+     * Get size of deck
+     */
+    public int size() {
+        return cards.size();
+    }
+
+    /**
      * Delete card at top of deck
      */
     public void deleteCard() {
